@@ -49,6 +49,7 @@ wayland:x:64:
 shutdown:x:70:
 nobody:*:99:
 users:x:100:
+pulse:x:171:
 nm-openvpn:x:975:
 mosquitto:x:976:
 dhcpcd:x:977:
@@ -69,5 +70,7 @@ systemd-bus-proxy:x:991:
 systemd-timesync:x:992:
 systemd-resolve:x:993:
 systemd-journal:x:994:
+pulse-access:x:995:
+pulse-rt:x:996:
 fio:x:1000:
 nogroup:x:65534:
